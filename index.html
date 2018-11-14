@@ -5,28 +5,70 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="assets/style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+
+    <link href="https://fonts.googleapis.com/css?family=Gloria+Hallelujah" rel="stylesheet">
+
 </head>
 
-<body>
+<body id="body">
+    <div class="header">
+        <h1>Rock, Paper, Scissors</h1>
+    </div> <!-- end of header -->
 
-// Javascript
+    <div class="buttons-view">
+        <div class="row">
+            <div class="col-md-4">
+                <img id="rock-img" src="assets/rock.png">
+            </div>
+            <div class="col-md-4">
+                <img id="paper-img" src="assets/paper.png">
+            </div>
+            <div class="col-md-4">
+                <img id="scissors-img" src="assets/scissors.png">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-4">
+                <button id="rock" value="rock">ROCK</button>
+            </div>
+            <div class="col-md-4">
+                <button id="paper" value="paper">PAPER</button>
+            </div>
+            <div class="col-md-4">
+                <button id="scissors" value="scissors">SCISSORS</button>
+            </div>
+        </div>
+    </div> <!-- end of buttons view -->
+
+    <div class="selections-view">
+        <div id="score-card">
+            <p>Wins: <span id="wins"></span></p>
+            <p>Loses: <span id="loses"></span></p>
+        </div>
+        <div id="players-choice"></div>
+        <div id="opponents-choice"></div>
+    </div> <!-- end of selections-view -->
+
+    <div class="chat-room">
+        <h5>Chat Room</h5>
+        <form>
+            <input type="text">
+        </form>
+    </div> <!-- end of chat room -->
+
+    
+<!-- Firebase -->
+    <script src="assets/logic.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/5.5.8/firebase.js"></script>
+
+<!-- jQuery -->
+
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 
     
-// FIrebase
-    <script src="https://www.gstatic.com/firebasejs/5.5.8/firebase.js"></script>
-<script>
-  // Initialize Firebase
-  var config = {
-    apiKey: "AIzaSyAc6SAP_dFJoZJfHh6mIxtDw9QJY00Dvy8",
-    authDomain: "rps-multiplayer-f0a32.firebaseapp.com",
-    databaseURL: "https://rps-multiplayer-f0a32.firebaseio.com",
-    projectId: "rps-multiplayer-f0a32",
-    storageBucket: "rps-multiplayer-f0a32.appspot.com",
-    messagingSenderId: "267120449019"
-  };
-  firebase.initializeApp(config);
-</script>
+  
 
 </body>
 </html>    

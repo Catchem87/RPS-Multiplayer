@@ -1,0 +1,79 @@
+.body {
+}
+.header {
+    font-family: 'Gloria Hallelujah', cursive;
+    font-size: 24pt;
+    text-align: center;
+    margin-bottom: 25px;
+    margin-top: 25px;
+}
+.buttons-view {
+    margin-right: 50px;
+    margin-left: 50px;
+    margin-bottom: 25px;
+    border: 1px solid black;
+    padding: 25px;
+}
+#rock {
+    width: 200px;
+    height: 100px;
+    border-radius: 10px;
+    border: 1px solid black;
+    font-family: 'Gloria Hallelujah', cursive;
+    font-size: 16pt;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+#paper {
+    width: 200px;
+    height: 100px;
+    border-radius: 10px;
+    border: 1px solid black;
+    font-family: 'Gloria Hallelujah', cursive;
+    font-size: 16pt;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+#scissors {
+    width: 200px;
+    height: 100px;
+    border-radius: 10px;
+    border: 1px solid black;
+    font-family: 'Gloria Hallelujah', cursive;
+    font-size: 16pt;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+#rock-img {
+    height: 100px;
+    width: 100px;
+    margin-left: 100px;
+    margin-bottom: 25px;
+}
+#paper-img {
+    height: 100px;
+    width: 100px;
+    margin-left: 100px;
+    margin-bottom: 25px;
+}
+#scissors-img {
+    height: 100px;
+    width: 100px;
+    margin-left: 100px;
+    margin-bottom: 25px;
+}
+.selections-view {
+    margin-right: 50px;
+    margin-left: 50px;
+    margin-bottom: 25px;
+    border: 1px solid black;
+    padding: 25px;
+}
+.chat-room {
+    margin-right: 50px;
+    margin-left: 50px;
+    margin-bottom: 100px;
+    border: 1px solid black;
+    padding: 25px;
+}
+
